@@ -1,0 +1,25 @@
+{
+  "name": "aument",
+  "version": "1.0.0",
+  "description": "Back End",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js"  
+  },
+  "author": "Francisco Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.4.20"
+    },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
